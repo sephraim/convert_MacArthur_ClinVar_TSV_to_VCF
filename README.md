@@ -25,11 +25,11 @@ The INFO column will contain the following tags:
 
 Simply run:
 
-   `./get_newest_ClinVar_from_MacArthur.sh`
+    ./get_newest_ClinVar_from_MacArthur.sh
    
 ## What is *info\_tag\_map.txt*?
 
-This is a map file that `./get_newest_ClinVar_from_MacArthur.sh` automatically looks for when converting the original TSV file to a VCF file. It contains 3 tab-separated columns:
+This is a map file that `get_newest_ClinVar_from_MacArthur.sh` automatically looks for when converting the original TSV file to a VCF file. It contains 3 tab-separated columns:
 
 - **Column 1**: Names of the columns in the original TSV file
 - **Column 2**: Descriptions to use for the corresponding INFO tag in the output VCF file
